@@ -73,7 +73,8 @@
 	 layers="2"
 	 styles="default"
 	 identify="true"
-	 name="Municipal Boundaries" legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Jurisdictions/Municipal_Boundaries.png"/>
+	 name="Municipal Boundaries" 
+     legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Jurisdictions/Municipal_Boundaries.png"/>
 	  <wmsLayer
 	 lid="AAE"
 	 visible="false"
@@ -82,7 +83,18 @@
 	 layers="1"
 	 styles="default"
 	 identify="true"
-	 name="COGs" legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Jurisdictions/COGs2.png"/>
+	 name="COGs" 
+     legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Jurisdictions/COGs2.png"/>
+	  <wmsLayer
+	 lid="hillshade"
+	 visible="false"
+	 url="http://arcgisserver7.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="hillshade"
+	 styles="default"
+	 identify="true"
+	 name="hillshade" 
+     legend="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?request=GetLegendGraphic&amp;version=1.3.0&amp;WIDTH=100&amp;HEIGHT=40&amp;layer=hillshade&amp;format=image/png"/> 
     </wmsSubgroup>
   </wmsGroup>
   <wmsGroup gid="G02" name="Natural" label="Natural">
