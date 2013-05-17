@@ -228,13 +228,13 @@ textarea.shareMapUrl {
     bottom: 30px;
     left: 15px;
     font-family: sans-serif;
-    color: #696969;
+    color: black;
 }
 
 .olControlScaleBarBar {
     height: 11px;
     top: 12px;
-    background-color: #696969;
+    background-color: darkblue;
     background-position: 0 0;
     background-repeat: repeat-x;
 }
@@ -242,7 +242,7 @@ textarea.shareMapUrl {
 .olControlScaleBarBarAlt {
     height: 11px;
     top: 12px;
-    background-color: #696969;
+    background-color: darkblue;
     background-position: 0 0;
     background-repeat: repeat-x;
 }
