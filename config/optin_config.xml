@@ -2,7 +2,7 @@
 <config>
   <application title="WNC Vitality Index GIS Viewer" >
   </application>
-  <extent xmin="-9400000" ymin="4150000" xmax="-8900000" ymax="4400000" xminZoom="-9400000" yminZoom="4150000" xmaxZoom="-8900000" ymaxZoom="4400000" wkid="102100"></extent> 
+  <extent xmin="-9389247" ymin="4162790" xmax="-9217417" ymax="4274694" xminZoom="-9400000" yminZoom="4150000" xmaxZoom="-8900000" ymaxZoom="4400000" wkid="102100"></extent> 
   <server map_path="http://arcgisserver7.nemac.org/ArcGIS/" >
   </server>
   <services>  
