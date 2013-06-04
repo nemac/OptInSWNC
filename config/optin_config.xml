@@ -140,45 +140,263 @@
     </wmsSubgroup>
   </wmsGroup>
   <wmsGroup gid="G04" name="Built" label="Built">
+    <wmsSubgroup label="Infrastructure">
+     <wmsLayer
+	 lid="BIATP"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Appalachian_Trail_Parking"
+	 styles="default"
+	 identify="true"
+	 name="Appalachian Trail Parking" 
+     legend="legends/appalachain_trail_parking.png"/> 
+     <wmsLayer
+	 lid="BIATS"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Appalachian_Trail_Shelters"
+	 styles="default"
+	 identify="true"
+	 name="Appalachian Trail Shelters" 
+     legend="legends/appalachain_trail_shelters.png"/>      
+     <wmsLayer
+	 lid="BIEMS"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="EMS_Locations"
+	 styles="default"
+	 identify="true"
+	 name="EMS Locations" 
+     legend="legends/EMS_locations.png"/>           
+     <wmsLayer
+	 lid="BIFS"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Fire_Sations"
+	 styles="default"
+	 identify="true"
+	 name="Fire Sations" 
+     legend="legends/fire_stations.png"/>                
+     <wmsLayer
+	 lid="BIWT"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Water_Tanks"
+	 styles="default"
+	 identify="true"
+	 name="Water Tanks" 
+     legend="legends/water_tanks.png"/>                     
+     <wmsLayer
+	 lid="BID"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Dams"
+	 styles="default"
+	 identify="true"
+	 name="Dams" 
+     legend="legends/dams.png"/>                          
+     <wmsLayer
+	 lid="BIHD"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Hydro_Dams"
+	 styles="default"
+	 identify="true"
+	 name="Hydro Dams" 
+     legend="legends/hydro_dams.png"/>                               
+    </wmsSubgroup>
     <wmsSubgroup label="Land">
-	</wmsSubgroup>
+     <wmsLayer
+	 lid="BLLC06"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Land_Cover_2006"
+	 styles="default"
+	 identify="true"
+	 name="Land Cover 2006" 
+     legend="legends/land_cover_2006.png"/>      
+	 <wmsLayer
+     lid="BLIS06"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Impervious_Surfaces_2006"
+	 styles="default"
+	 identify="true"
+	 name="Impervious Surfaces 2006" 
+     legend="legends/impervious_surfaces_2006.png"/>           
+	 <wmsLayer
+     lid="BLTC"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Tree_Cover_2006"
+	 styles="default"
+	 identify="true"
+	 name="Tree Cover 2006" 
+     legend="legends/tree_cover_2006.png"/> 
+	 <wmsLayer
+     lid="BLLU30"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Landuse_2030"
+	 styles="default"
+	 identify="true"
+	 name="Landuse 2030" 
+     legend="legends/landuse_2030.png"/>      
+	 <wmsLayer
+     lid="BLLU25"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Landuse_2025"
+	 styles="default"
+	 identify="true"
+	 name="Landuse 2025" 
+     legend="legends/landuse_2025.png"/>      
+	 <wmsLayer
+     lid="BLLU20"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Landuse_2020"
+	 styles="default"
+	 identify="true"
+	 name="Landuse 2020" 
+     legend="legends/landuse_2020.png"/>      
+	 <wmsLayer
+     lid="BLLU15"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Landuse_2015"
+	 styles="default"
+	 identify="true"
+	 name="Landuse 2015" 
+     legend="legends/landuse_2015.png"/>      
+	 <wmsLayer
+     lid="BLLU10"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Landuse_2010"
+	 styles="default"
+	 identify="true"
+	 name="Landuse 2010" 
+     legend="legends/landuse_2010.png"/>      
+	 <wmsLayer
+     lid="BLLU06"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Landuse_2006"
+	 styles="default"
+	 identify="true"
+	 name="Landuse 2006" 
+     legend="legends/landuse_2006.png"/>      
+	 <wmsLayer
+     lid="BLLU95"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Landuse_1995"
+	 styles="default"
+	 identify="true"
+	 name="Landuse 1995" 
+     legend="legends/landuse_1995.png"/>      
+	 <wmsLayer
+     lid="BLLU85"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Landuse_1985"
+	 styles="default"
+	 identify="true"
+	 name="Landuse 1985" 
+     legend="legends/landuse_1985.png"/>      
+	 <wmsLayer
+     lid="BLLU76"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Landuse_1976"
+	 styles="default"
+	 identify="true"
+	 name="Landuse 1976" 
+     legend="legends/landuse_1976.png"/>           
+	 <wmsLayer
+     lid="BLCTCP"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Conservation_Tax_Credit_Properties"
+	 styles="default"
+	 identify="true"
+	 name="Conservation Tax Credit Properties" 
+     legend="legends/conservation_tax_credit_props.png"/>           
+	 <wmsLayer
+     lid="BLUA"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Urban_Areas"
+	 styles="default"
+	 identify="true"
+	 name="Urban_Areas" 
+     legend="legends/urban_areas.png"/>           
+    </wmsSubgroup>
     <wmsSubgroup label="Transportation">
      <wmsLayer
-	 lid="INTRSTS"
+	 lid="BTA"
 	 visible="false"
 	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
-	 layers="Interstates"
+	 layers="Airports"
 	 styles="default"
 	 identify="true"
-	 name="Interstates" 
-     legend="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?request=GetLegendGraphic&amp;version=1.3.0&amp;WIDTH=100&amp;HEIGHT=40&amp;layer=Interstates&amp;format=image/png"/> 
-      <wmsLayer
-	 lid="USHWY"
-	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
-	 srs="EPSG:4326"
-	 layers="US_Highways"
-	 styles="default"
-	 identify="true"
-	 name="US Highways" 
-     legend="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?request=GetLegendGraphic&amp;version=1.3.0&amp;WIDTH=100&amp;HEIGHT=40&amp;layer=US_Highways&amp;format=image/png"/> 
+	 name="Airports" 
+     legend="legends/airports.png"/> 
      <wmsLayer
-	 lid="NCRTS"
+	 lid="BTBR"
 	 visible="false"
 	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
-	 layers="NC_Routes"
+	 layers="Bike_Routes"
 	 styles="default"
 	 identify="true"
-	 name="NC Routes" 
-     legend="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?request=GetLegendGraphic&amp;version=1.3.0&amp;WIDTH=100&amp;HEIGHT=40&amp;layer=NC_Routes&amp;format=image/png"/> 
+	 name="Bike Routes" 
+     legend="legends/bike_routes.png"/>      
 	</wmsSubgroup>
-    <wmsSubgroup label="Housing">
-	</wmsSubgroup> 
-    <wmsSubgroup label="Energy">
-    </wmsSubgroup>
     <wmsSubgroup label="Risks, Hazards, and Stressors">
+	 <wmsLayer
+     lid="BLRHSHWS"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Hazardous_Waste_Sites"
+	 styles="default"
+	 identify="true"
+	 name="Hazardous Waste Sites" 
+     legend="legends/hazardous_waste_sites.png"/>           
+	 <wmsLayer
+     lid="BLRHSPL"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Public_Landfills"
+	 styles="default"
+	 identify="true"
+	 name="Public Landfills" 
+     legend="legends/public_landfills.png"/>                
     </wmsSubgroup>
   </wmsGroup>
   <wmsGroup gid="G05" name="Economic" label="Economic">
