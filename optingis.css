@@ -69,6 +69,25 @@ a{
 	text-align:center;
 }
 
+.buttonTool {
+    background-color : transparent;
+    opacity : 1;
+}
+
+.buttonToolActive {
+    background-color : black;
+    opacity : .4;
+}
+
+.buttonToolHover {
+    background-color : black;
+    opacity : .4;
+}
+
+.buttonToolActiveHover {
+    background-color : black;
+    opacity : .75;
+}
 
 #mapToolsDialog {
    position: relative;
