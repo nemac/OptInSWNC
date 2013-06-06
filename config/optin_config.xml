@@ -109,34 +109,232 @@
   </wmsGroup>
   <wmsGroup gid="G02" name="Natural" label="Natural">
     <wmsSubgroup label="Topography">
-     <wmsLayer
-	 lid="HS"
+	 <wmsLayer
+     lid="NEW"
 	 visible="false"
 	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
-	 layers="hillshade"
+	 layers="Eastern_Continental_Divide"
 	 styles="default"
 	 identify="true"
-	 name="hillshade" 
-     legend="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?request=GetLegendGraphic&amp;version=1.3.0&amp;WIDTH=100&amp;HEIGHT=40&amp;layer=hillshade&amp;format=image/png"/> 
+	 name="Eastern Continental Divide" 
+     legend="legends/eastern_continental_divide.png"/>     
     </wmsSubgroup>
     <wmsSubgroup label="Geology">
+	 <wmsLayer
+     lid="NEW"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Landslide_Locations"
+	 styles="default"
+	 identify="true"
+	 name="Landslide Locations" 
+     legend="legends/landslide_locations.png"/> 
+	 <wmsLayer
+     lid="NEW"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Geologic_Faults"
+	 styles="default"
+	 identify="true"
+	 name="Geologic Faults" 
+     legend="legends/geologic_faults.png"/> 
+	 <wmsLayer
+     lid="NEW"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Geology"
+	 styles="default"
+	 identify="true"
+	 name="Geology" 
+     legend="legends/geology.png"/>      
     </wmsSubgroup>
     <wmsSubgroup label="Weather and Climate">
     </wmsSubgroup>
     <wmsSubgroup label="Water">
     </wmsSubgroup>
     <wmsSubgroup label="Ecosystems">
+	 <wmsLayer
+     lid="NEW"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Wetlands"
+	 styles="default"
+	 identify="true"
+	 name="Wetlands" 
+     legend="legends/wetlands.png"/> 
+	 <wmsLayer
+     lid="NEBBS"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Black_Bear_Sanctuary"
+	 styles="default"
+	 identify="true"
+	 name="Black Bear Sanctuary" 
+     legend="legends/black_bear_sanctuary.png"/>      
+	 <wmsLayer
+     lid="NECH"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Critical_Habitat"
+	 styles="default"
+	 identify="true"
+	 name="Critical Habitat" 
+     legend="legends/critical_habitat.png"/>      
+	 <wmsLayer
+     lid="NEIBA"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Important_Bird_Areas"
+	 styles="default"
+	 identify="true"
+	 name="Important Bird Areas" 
+     legend="legends/important_bird_areas.png"/>      
+	 <wmsLayer
+     lid="NERA"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Roadless_Areas"
+	 styles="default"
+	 identify="true"
+	 name="Roadless Areas" 
+     legend="legends/roadless_areas.png"/>      
+	 <wmsLayer
+     lid="NESNHA"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Significant_Natural_Heritgae_Areas"
+	 styles="default"
+	 identify="true"
+	 name="Significant Natural Heritage Areas" 
+     legend="legends/sig_nat_heritage_areas.png"/>      
+	 <wmsLayer
+     lid="NESFF"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Spruce_Fir_Forest"
+	 styles="default"
+	 identify="true"
+	 name="Spruce Fir Forest" 
+     legend="legends/spruce_fir_forest.png"/>      
     </wmsSubgroup>
   </wmsGroup>
   <wmsGroup gid="G03" name="Human" label="Human">
-    <wmsSubgroup label="Population">
-    </wmsSubgroup>
     <wmsSubgroup label="Health">
+	 <wmsLayer
+     lid="HHH"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Hospitals"
+	 styles="default"
+	 identify="true"
+	 name="Hospitals" 
+     legend="legends/hospitals.png"/> 
+	 <wmsLayer
+     lid="HHMF"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Medical_Facilities"
+	 styles="default"
+	 identify="true"
+	 name="Medical Facilities" 
+     legend="legends/medical_facilities.png"/> 
+	 <wmsLayer
+     lid="HHPHC"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Public_Health_Centers"
+	 styles="default"
+	 identify="true"
+	 name="Public Health Centers" 
+     legend="legends/public_health_centers.png"/> 
+	 <wmsLayer
+     lid="HHPS"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Public_Schools"
+	 styles="default"
+	 identify="true"
+	 name="Public Schools" 
+     legend="legends/public_schools.png"/>      
     </wmsSubgroup>
     <wmsSubgroup label="Education">
+	 <wmsLayer
+     lid="HECU"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Colleges_and_Universities"
+	 styles="default"
+	 identify="true"
+	 name="Colleges and Universities" 
+     legend="legends/colleges_and_universities.png"/> 
+	 <wmsLayer
+     lid="HENPS"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Non_Public_Schools"
+	 styles="default"
+	 identify="true"
+	 name="Non Public Schools" 
+     legend="legends/non_public_schools.png"/>      
     </wmsSubgroup>
     <wmsSubgroup label="Culture">
+	 <wmsLayer
+     lid="HCFAP"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Fishing_Access_Points"
+	 styles="default"
+	 identify="true"
+	 name="Fishing Access Points" 
+     legend="legends/fishing_access_points.png"/> 
+	 <wmsLayer
+     lid="HCPTR"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Public_Trout_Rivers"
+	 styles="default"
+	 identify="true"
+	 name="Public Trout Rivers" 
+     legend="legends/public_trout_rivers.png"/>        
+	 <wmsLayer
+     lid="HCPTL"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Public_Trout_Lakes"
+	 styles="default"
+	 identify="true"
+	 name="Public Trout Lakes" 
+     legend="legends/public_trout_lakes.png"/>        
+	 <wmsLayer
+     lid="HCGL"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Game_Lands"
+	 styles="default"
+	 identify="true"
+	 name="Game Lands" 
+     legend="legends/game_lands.png"/>        
     </wmsSubgroup>
   </wmsGroup>
   <wmsGroup gid="G04" name="Built" label="Built">
@@ -375,6 +573,106 @@
 	 identify="true"
 	 name="Bike Routes" 
      legend="legends/bike_routes.png"/>      
+     <wmsLayer
+	 lid="BTBRP"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Blue_Ridge_Parkway"
+	 styles="default"
+	 identify="true"
+	 name="Blue Ridge Parkway" 
+     legend="legends/blue_ridge_parkway.png"/>      
+     <wmsLayer
+	 lid="BTR"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Railroads"
+	 styles="default"
+	 identify="true"
+	 name="Railroads" 
+     legend="legends/railroads.png"/>
+     <wmsLayer
+	 lid="BTAR"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Abandoned_Railroads"
+	 styles="default"
+	 identify="true"
+	 name="Abandoned Railroads" 
+     legend="legends/abandoned_railroads.png"/>        
+     <wmsLayer
+	 lid="BTSB"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Scenic_Byways"
+	 styles="default"
+	 identify="true"
+	 name="Scenic Byways" 
+     legend="legends/scenic_byways.png"/>        
+     <wmsLayer
+	 lid="BTMTST"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Mountains-to-Sea_Trail"
+	 styles="default"
+	 identify="true"
+	 name="Mountains-to-Sea Trail" 
+     legend="legends/mountains_to_sea_trail.png"/>        
+     <wmsLayer
+	 lid="BTAT"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="All_Trails"
+	 styles="default"
+	 identify="true"
+	 name="All Trails" 
+     legend="legends/all_trails.png"/>        
+     <wmsLayer
+	 lid="BTGT"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Greenway_Trails"
+	 styles="default"
+	 identify="true"
+	 name="Greenway Trails" 
+     legend="legends/greenway_trails.png"/>        
+     <wmsLayer
+	 lid="BTGSMNP"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="GSMNP_Trails"
+	 styles="default"
+	 identify="true"
+	 name="GSMNP Trails" 
+     legend="legends/GSMNP_trails.png"/>        
+     <wmsLayer
+	 lid="BTAR"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Other_Local_Trails"
+	 styles="default"
+	 identify="true"
+	 name="Other Local Trails" 
+     legend="legends/other_local_trails.png"/>        
+     <wmsLayer
+	 lid="BTAPPTRL"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Appalachian_Trail"
+	 styles="default"
+	 identify="true"
+	 name="Appalachian Trail" 
+     legend="legends/appalachain_trail.png"/>        
 	</wmsSubgroup>
     <wmsSubgroup label="Risks, Hazards, and Stressors">
 	 <wmsLayer
@@ -400,13 +698,17 @@
     </wmsSubgroup>
   </wmsGroup>
   <wmsGroup gid="G05" name="Economic" label="Economic">
-    <wmsSubgroup label="Income">
-    </wmsSubgroup>
-    <wmsSubgroup label="Total Employment">
-    </wmsSubgroup>
-    <wmsSubgroup label="Employment Sectors">
-    </wmsSubgroup>
-    <wmsSubgroup label="Agriculture">
+    <wmsSubgroup label="Businesses">
+	 <wmsLayer
+     lid="EBMR"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Major_Retailers"
+	 styles="default"
+	 identify="true"
+	 name="Major Retailers" 
+     legend="legends/major_retailers.png"/>     
     </wmsSubgroup>
   </wmsGroup>
 
