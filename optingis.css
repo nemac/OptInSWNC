@@ -17,7 +17,7 @@ a{
 
 #titleBar {
     z-index:5;
-    background:#445168;
+    background:#592F84;
 	padding:5px;
     display: block;
     position: relative;
@@ -61,7 +61,7 @@ a{
   
 #header {
     z-index:10002;
-    background:#d0d5df;
+    background:#EBEBEB;
     display: block;
 	height:35px;
 	padding-left:3px;
