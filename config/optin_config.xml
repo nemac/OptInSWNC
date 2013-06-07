@@ -34,77 +34,97 @@
 <wmsLayers>
   <wmsGroup gid="G01" name="Jurisdictions" label="Political Boundaries">
     <wmsSubgroup label="Political Boundaries">
-	 <wmsLayer 
-     lid="CB"
+    <wmsLayer
+     lid="PBCT"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Cherokee_Townships"
+	 styles="default"
+	 identify="true"
+	 name="Cherokee Townships" 
+     legend="legends/cherokee_townships.png"/>     
+	 <wmsLayer
      selected="true"
-     visible="false"
-     url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
-     srs="EPSG:4326"
-     layers="Counties_Boundaries"
-     styles="default"
-     identify="false"
-     name="Counties Boundaries"
-     legend="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?request=GetLegendGraphic&amp;version=1.3.0&amp;WIDTH=100&amp;HEIGHT=40&amp;layer=Counties_Boundaries&amp;format=image/png"/>
-	 <wmsLayer 
-     lid="CS"
-     visible="false"
-     url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
-     srs="EPSG:4326"
-     layers="County_Seats"
-     styles="default"
-     identify="false"
-     name="County Seats"
-     legend="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?request=GetLegendGraphic&amp;version=1.3.0&amp;WIDTH=100&amp;HEIGHT=40&amp;layer=County_Seats&amp;format=image/png"/>
-	 <wmsLayer 
-     lid="CI"
-     visible="false"
-     url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
-     srs="EPSG:4326"
-     layers="Communities_Incorporated"
-     styles="default"
-     identify="false"
-     name="Communities Incorporated"
-     legend="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?request=GetLegendGraphic&amp;version=1.3.0&amp;WIDTH=100&amp;HEIGHT=40&amp;layer=Communities_Incorporated&amp;format=image/png"/>
-	 <wmsLayer 
-     lid="CO"
-     visible="false"
-     url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
-     srs="EPSG:4326"
-     layers="Communities_Other"
-     styles="default"
-     identify="false"
-     name="Communities Other"
-     legend="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?request=GetLegendGraphic&amp;version=1.3.0&amp;WIDTH=100&amp;HEIGHT=40&amp;layer=Communities_Other&amp;format=image/png"/>
-	 <wmsLayer 
-     lid="MB"
-     visible="false"
-     url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
-     srs="EPSG:4326"
-     layers="Municipal_Boundaries"
-     styles="default"
-     identify="false"
-     name="Municipal Boundaries"
-     legend="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?request=GetLegendGraphic&amp;version=1.3.0&amp;WIDTH=100&amp;HEIGHT=40&amp;layer=Municipal_Boundaries&amp;format=image/png"/>
-	 <wmsLayer 
-     lid="ECBIL"
-     visible="false"
-     url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
-     srs="EPSG:4326"
-     layers="EBCI_Lands"
-     styles="default"
-     identify="false"
-     name="EBCI Lands"
-     legend="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?request=GetLegendGraphic&amp;version=1.3.0&amp;WIDTH=100&amp;HEIGHT=40&amp;layer=EBCI_Lands&amp;format=image/png"/>
-	 <wmsLayer 
-     lid="MA"
-     visible="false"
-     url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
-     srs="EPSG:4326"
-     layers="Managed_Areas"
-     styles="default"
-     identify="false"
-     name="Managed Areas"
-     legend="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?request=GetLegendGraphic&amp;version=1.3.0&amp;WIDTH=100&amp;HEIGHT=40&amp;layer=Managed_Areas&amp;format=image/png"/>
+     lid="PBCB"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Counties_Boundaries" 
+	 styles="default"
+	 identify="true"
+	 name="Counties Boundaries" 
+     legend="legends/counties_boundaries.png"/>     
+	 <wmsLayer
+     lid="PBZ"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="ZIP_Codes"
+	 styles="default"
+	 identify="true"
+	 name="ZIP Codes" 
+     legend="legends/zip_codes.png"/>     
+	 <wmsLayer
+     lid="PBCB2010"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Census_Blocks_2010"
+	 styles="default"
+	 identify="true"
+	 name="Census Blocks 2010" 
+     legend="legends/census_blocks_2010.png"/>     
+	 <wmsLayer
+     lid="PBCBG2010"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Census_BlockGroups_2010"
+	 styles="default"
+	 identify="true"
+	 name="Census BlockGroups 2010" 
+     legend="legends/census_block_groups_2010.png"/>     
+	 <wmsLayer
+     lid="PBCT"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Census_Tracts_2010"
+	 styles="default"
+	 identify="true"
+	 name="Census Tracts 2010" 
+     legend="legends/census_tracts_2010.png"/>     
+	 <wmsLayer
+     lid="PBFL"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Federal_Lands"
+	 styles="default"
+	 identify="true"
+	 name="Federal Lands" 
+     legend="legends/federal_lands.png"/>     
+	 <wmsLayer
+     lid="PBSOL"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="State_Owned_Lands"
+	 styles="default"
+	 identify="true"
+	 name="State Owned Lands" 
+     legend="legends/state_owned_lands.png"/>     
+	 <wmsLayer
+     lid="PBWA"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Wilderness_Areas"
+	 styles="default"
+	 identify="true"
+	 name="Wilderness Areas" 
+     legend="legends/wilderness_areas.png"/>     
     </wmsSubgroup>
   </wmsGroup>
   <wmsGroup gid="G02" name="Natural" label="Natural">
@@ -122,7 +142,7 @@
     </wmsSubgroup>
     <wmsSubgroup label="Geology">
 	 <wmsLayer
-     lid="NEW"
+     lid="NGLL"
 	 visible="false"
 	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
@@ -132,7 +152,7 @@
 	 name="Landslide Locations" 
      legend="legends/landslide_locations.png"/> 
 	 <wmsLayer
-     lid="NEW"
+     lid="NGGF"
 	 visible="false"
 	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
@@ -142,7 +162,7 @@
 	 name="Geologic Faults" 
      legend="legends/geologic_faults.png"/> 
 	 <wmsLayer
-     lid="NEW"
+     lid="NGG"
 	 visible="false"
 	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
@@ -153,8 +173,148 @@
      legend="legends/geology.png"/>      
     </wmsSubgroup>
     <wmsSubgroup label="Weather and Climate">
+	 <wmsLayer
+     lid="NWCAAP8110"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Avg_Annual_Precip_81_10"
+	 styles="default"
+	 identify="true"
+	 name="Avg Annual Precip 81_10" 
+     legend="legends/avg_annual_precip_1981_2010.png"/>      
+	 <wmsLayer
+     lid="NWCSFAAP8110"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Sept_Feb_Avg_Annual_Precip_81_10"
+	 styles="default"
+	 identify="true"
+	 name="Sept Feb Avg Annual Precip 81_10" 
+     legend="legends/avg_annual_precip_sept_feb_1981_2010.png"/>      
+	 <wmsLayer
+     lid="NWCMAAAP8110"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Mar_Aug_Avg_Annual_Precip_81_10"
+	 styles="default"
+	 identify="true"
+	 name="Mar Aug Avg Annual Precip 81_10" 
+     legend="legends/avg_annual_precip_mar_aug_1981_2010.png"/>      
+	 <wmsLayer
+     lid="NWCAAMT8110"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Avg_Annual_Max_Temp_81_10"
+	 styles="default"
+	 identify="true"
+	 name="Avg Annual Max Temp 81_10" 
+     legend="legends/avg_ann_max_temp_81_10.png"/>      
+	 <wmsLayer
+     lid="NWCAAMN8110"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Avg_Annual_Min_Temp_81_10"
+	 styles="default"
+	 identify="true"
+	 name="Avg Annual Min Temp 81_10" 
+     legend="legends/avg_ann_min_temp_81_10.png"/>      
     </wmsSubgroup>
     <wmsSubgroup label="Water">
+	 <wmsLayer
+     lid="NWMR"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Major_Rivers"
+	 styles="default"
+	 identify="true"
+	 name="Major Rivers" 
+     legend="legends/major_rivers.png"/> 
+	 <wmsLayer
+     lid="NWS"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Streams"
+	 styles="default"
+	 identify="true"
+	 name="Streams" 
+     legend="legends/streams.png"/> 
+	 <wmsLayer
+     lid="NWW8D"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Watersheds_8Digit"
+	 styles="default"
+	 identify="true"
+	 name="Watersheds 8Digit" 
+     legend="legends/watershed_8_digit.png"/> 
+	 <wmsLayer
+     lid="NWW12D"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Watersheds_12Digit"
+	 styles="default"
+	 identify="true"
+	 name="Watersheds 12Digit" 
+     legend="legends/watersheds_12_digit.png"/> 
+	 <wmsLayer
+     lid="NWW500"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Floodplains_500yr"
+	 styles="default"
+	 identify="true"
+	 name="Floodplains 500yr" 
+     legend="legends/floodplains_500yr.png"/> 
+	 <wmsLayer
+     lid="NQWORW"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="High_Quality_Waters_Outstanding_Resources_Waters"
+	 styles="default"
+	 identify="true"
+	 name="High Quality Waters Outstanding Resources Waters" 
+     legend="legends/high_quality_waters_outstanding_resources.png"/> 
+	 <wmsLayer
+     lid="NWML"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Major_Lakes"
+	 styles="default"
+	 identify="true"
+	 name="Major Lakes" 
+     legend="legends/major_lakes.png"/>
+	 <wmsLayer
+     lid="NWWSW"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Water_Supply_Watersheds"
+	 styles="default"
+	 identify="true"
+	 name="Water Supply Watersheds" 
+     legend="legends/water_supply_watersheds.png"/>  
+	 <wmsLayer
+     lid="NWWB"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Waterbodies"
+	 styles="default"
+	 identify="true"
+	 name="Waterbodies" 
+     legend="legends/waterbodies.png"/>       
     </wmsSubgroup>
     <wmsSubgroup label="Ecosystems">
 	 <wmsLayer
