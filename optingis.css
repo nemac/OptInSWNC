@@ -17,7 +17,7 @@ a{
 
 #titleBar {
     z-index:5;
-    background:#592F84;
+    background:#592f85;
 	padding:5px;
     display: block;
     position: relative;
@@ -61,7 +61,7 @@ a{
   
 #header {
     z-index:10002;
-    background:#EBEBEB;
+    background:#f0e0c7;
     display: block;
 	height:35px;
 	padding-left:3px;
@@ -309,7 +309,7 @@ textarea.shareMapUrl {
 
 #footer {
     z-index:10003;
-    background:#dfddd0;
+    background:#f0e0c7;
     display: block;
 	height:30px;
 	padding-left:3px;
