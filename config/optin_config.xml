@@ -421,16 +421,6 @@
 	 identify="true"
 	 name="Public Health Centers" 
      legend="legends/public_health_centers.png"/> 
-	 <wmsLayer
-     lid="HHPS"
-	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
-	 srs="EPSG:4326"
-	 layers="Public_Schools"
-	 styles="default"
-	 identify="true"
-	 name="Public Schools" 
-     legend="legends/public_schools.png"/>      
     </wmsSubgroup>
     <wmsSubgroup label="Education">
 	 <wmsLayer
@@ -443,6 +433,16 @@
 	 identify="true"
 	 name="Colleges and Universities" 
      legend="legends/colleges_and_universities.png"/> 
+	 <wmsLayer
+     lid="HHPS"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Public_Schools"
+	 styles="default"
+	 identify="true"
+	 name="Public Schools" 
+     legend="legends/public_schools.png"/>           
 	 <wmsLayer
      lid="HENPS"
 	 visible="false"
@@ -534,7 +534,7 @@
 	 visible="false"
 	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
-	 layers="Fire_Sations"
+	 layers="Fire_Stations"
 	 styles="default"
 	 identify="true"
 	 name="Fire Sations" 
@@ -666,7 +666,7 @@
 	 visible="false"
 	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
-	 layers="Landuse_1995"
+	 layers="Landiuse_1995"
 	 styles="default"
 	 identify="true"
 	 name="Landuse 1995" 
@@ -724,6 +724,16 @@
 	 name="Airports" 
      legend="legends/airports.png"/> 
      <wmsLayer
+	 lid="BTA"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Heliports"
+	 styles="default"
+	 identify="true"
+	 name="Heliports" 
+     legend="legends/heliports.png"/>      
+     <wmsLayer
 	 lid="BTBR"
 	 visible="false"
 	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
@@ -778,7 +788,7 @@
 	 visible="false"
 	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
-	 layers="Mountains-to-Sea_Trail"
+	 layers="Mountains_to_Sea_Trail"
 	 styles="default"
 	 identify="true"
 	 name="Mountains-to-Sea Trail" 
