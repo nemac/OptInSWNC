@@ -32,9 +32,59 @@
   </mapviews>
 
 <wmsLayers>
-  <wmsGroup gid="G01" name="Jurisdictions" label="Political Boundaries">
-    <wmsSubgroup label="Political Boundaries">
-    <wmsLayer
+  <wmsGroup gid="G01" name="Jurisdictions" label="Political Boundaries and Locations">
+    <wmsSubgroup label="Political Boundaries and Locations">
+     <wmsLayer
+     lid="PBCI"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Communities_Incorporated"
+	 styles="default"
+	 identify="true"
+	 name="Communities Incorporated" 
+     legend="legends/communities_incorporated.png"/>     
+     <wmsLayer
+     lid="PBCO"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Communities_Other"
+	 styles="default"
+	 identify="true"
+	 name="Communities Other" 
+     legend="legends/communities_other.png"/>     
+     <wmsLayer
+     lid="PBCS"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="County_Seats"
+	 styles="default"
+	 identify="true"
+	 name="County Seats" 
+     legend="legends/county_seats.png"/>     
+     <wmsLayer
+     lid="PBECBI"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="EBCI_Lands"
+	 styles="default"
+	 identify="true"
+	 name="EBCI Lands" 
+     legend="legends/ebci_lands.png"/>     
+     <wmsLayer
+     lid="PBMB"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Municipal_Boundaries"
+	 styles="default"
+	 identify="true"
+	 name="Municipal Boundaries" 
+     legend="legends/municipal_boundaries.png"/>     
+     <wmsLayer
      lid="PBCT"
 	 visible="false"
 	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
@@ -128,6 +178,18 @@
     </wmsSubgroup>
   </wmsGroup>
   <wmsGroup gid="G02" name="Natural" label="Natural">
+    <wmsSubgroup label="Terrain">
+	 <wmsLayer
+     lid="NEW"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Hillshade"
+	 styles="default"
+	 identify="true"
+	 name="Hillshade" 
+     legend="legends/hillshade.png"/>     
+    </wmsSubgroup>
     <wmsSubgroup label="Topography">
 	 <wmsLayer
      lid="NEW"
@@ -714,6 +776,36 @@
     </wmsSubgroup>
     <wmsSubgroup label="Transportation">
      <wmsLayer
+	 lid="BTI"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Interstates"
+	 styles="default"
+	 identify="true"
+	 name="Interstates" 
+     legend="legends/interstates.png"/> 
+     <wmsLayer
+	 lid="BTNCR"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="NC_Routes"
+	 styles="default"
+	 identify="true"
+	 name="NC Routes" 
+     legend="legends/nc_routes.png"/> 
+     <wmsLayer
+	 lid="BTUSHWY"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="US_Highways"
+	 styles="default"
+	 identify="true"
+	 name="US Highways" 
+     legend="legends/us_highways.png"/> 
+    <wmsLayer
 	 lid="BTA"
 	 visible="false"
 	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
