@@ -634,6 +634,16 @@
     </wmsSubgroup>
     <wmsSubgroup label="Land">
      <wmsLayer
+	 lid="BLMAL"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Managed_Areas"
+	 styles="default"
+	 identify="true"
+	 name="Managed Areas" 
+     legend="legends/managed_areas.png"/> 
+     <wmsLayer
 	 lid="BLLC06"
 	 visible="false"
 	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
