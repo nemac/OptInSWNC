@@ -771,7 +771,7 @@
 	 layers="Urban_Areas"
 	 styles="default"
 	 identify="true"
-	 name="Urban_Areas" 
+	 name="Urban Areas" 
      legend="legends/urban_areas.png"/>           
     </wmsSubgroup>
     <wmsSubgroup label="Transportation">
