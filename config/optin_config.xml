@@ -123,7 +123,7 @@
 	 styles="default"
 	 identify="true"
 	 name="EBCI Lands" 
-     legend="legends/ebci_lands.png"/>  
+     legend="legends/EBCI_lands.png"/>  
      <wmsLayer
      lid="PBFL"
 	 visible="false"
