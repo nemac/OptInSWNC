@@ -283,7 +283,17 @@
     </wmsSubgroup>
     <wmsSubgroup label="Terrain">
 	 <wmsLayer
-     lid="NEW"
+     lid="DEM"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="digital_elevation_model"
+	 styles="default"
+	 identify="true"
+	 name="Digital Elevation Model" 
+     legend="legends/digital_elevation_model.png"/>     
+	<wmsLayer
+     lid="HS"
 	 visible="false"
 	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
