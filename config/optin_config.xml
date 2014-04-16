@@ -28,6 +28,7 @@
       <viewGroup name="Human" />
       <viewGroup name="Built" />
       <viewGroup name="Economic" />
+	  <viewGroup name="Growth Scenarios and Models" />
     </view>
   </mapviews>
 <wmsLayers>
@@ -313,7 +314,17 @@
 	 styles="default"
 	 identify="true"
 	 name="Eastern Continental Divide" 
-     legend="legends/eastern_continental_divide.png"/>     
+     legend="legends/eastern_continental_divide.png"/>  
+	 <wmsLayer
+     lid="NSLP"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="slope_pct"
+	 styles="default"
+	 identify="true"
+	 name="Slope" 
+     legend="legends/Percent_Slope.png"/>	 	 
     </wmsSubgroup>
     <wmsSubgroup label="Water">
 	 <wmsLayer
@@ -993,6 +1004,50 @@
      legend="legends/major_retailers.png"/>     
     </wmsSubgroup>
   </wmsGroup>
+  <wmsGroup gid="G06" name="Growth Scenarios and Models" label="Growth Scenarios and Models">
+    <wmsSubgroup label="Suitability">
+	 <wmsLayer
+     lid="GSMSAS"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="ag_suit"
+	 styles="default"
+	 identify="true"
+	 name="Agriculture Suitability" 
+     legend="legends/Agriculture_Suitability_Rank.png"/>
+	 <wmsLayer
+     lid="GSMSCS"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="cons_suit"
+	 styles="default"
+	 identify="true"
+	 name="Conservation Suitability" 
+     legend="legends/Conservation_Suitability_Rank.png"/>
+	 <wmsLayer
+     lid="GSMSUAO"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="urb_ag_ovrl"
+	 styles="default"
+	 identify="true"
+	 name="Jobs, Housing, Infrastructure and Agriculture Overlap" 
+     legend="legends/Urban_Agriculture_Overlap.png"/>
+	 <wmsLayer
+     lid="GSMSUAO"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="urb_cons_ovrl"
+	 styles="default"
+	 identify="true"
+	 name="Jobs, Housing, Infrastructure and Conservation Overlap" 
+     legend="legends/Urban_Conservation_Overlap.png"/>     
+    </wmsSubgroup>
+  </wmsGroup>  
 </wmsLayers>
   <tools>
     <tool name="Print" label="Print Map" />
