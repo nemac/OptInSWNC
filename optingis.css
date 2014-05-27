@@ -1,5 +1,5 @@
 /*
-Custom overrides for the taccimo viewer
+Custom overrides for the optin viewer
 */
 
 /*
@@ -19,21 +19,19 @@ a {
 Header Styles
 */
 #titleBar {
-    background: #6c9d30;
+    background: #592f85;
 }
 
 #titleBar h2 {
-    color: #fff;
+    color: #e5eaf4;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.25em;
     font-weight: bold;
-    font-style: italic;
     letter-spacing: -1px;
 }
 
 #header {
-    background: #fff;
-    border-bottom:thick solid #6c9d30;
+    background: #f0e0c7;
 }
 
 /*
@@ -41,11 +39,10 @@ Footer Styles
 */
 #footer {
     background: #00aeef;
-    color: #fff;
+    color: #f0e0c7;
 }
 
 #footer a {
-    color: #fff;
     border-right: 0;
 }
 
