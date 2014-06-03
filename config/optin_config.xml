@@ -774,6 +774,16 @@
 	 identify="true"
 	 name="Land Cover 2006" 
      legend="legends/land_cover_2006.png"/>        	
+	 <wmsLayer
+	 lid="BLLC06"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="Land_Cover_2011"
+	 styles="default"
+	 identify="true"
+	 name="Land Cover 2011" 
+     legend="legends/land_cover_2011.png"/>        		 
      <wmsLayer
 	 lid="BLMAL"
 	 visible="false"
@@ -1026,6 +1036,16 @@
 	 identify="true"
 	 name="Conservation Suitability" 
      legend="legends/Conservation_Suitability_Rank.png"/>
+	 <wmsLayer
+     lid="GSMSUS"
+	 visible="false"
+	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="urban_suit"
+	 styles="default"
+	 identify="true"
+	 name="Urban Agriculture Overlap" 
+     legend="legends/Urban_Agriculture_Overlap.png"/>	 
 	 <wmsLayer
      lid="GSMSUAO"
 	 visible="false"
