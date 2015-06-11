@@ -37,7 +37,7 @@
 	<wmsLayer
      lid="PBCB2010"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Census_Blocks_2010"
 	 styles="default"
@@ -47,7 +47,7 @@
 	 <wmsLayer
      lid="PBCBG2010"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Census_BlockGroups_2010"
 	 styles="default"
@@ -57,7 +57,7 @@
 	 <wmsLayer
      lid="PBCT"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Census_Tracts_2010"
 	 styles="default"
@@ -67,7 +67,7 @@
      <wmsLayer
      lid="PBCT"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Cherokee_Townships"
 	 styles="default"
@@ -77,7 +77,7 @@
      <wmsLayer
      lid="PBCI"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Communities_Incorporated"
 	 styles="default"
@@ -87,7 +87,7 @@
      <wmsLayer
      lid="PBCO"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Communities_Other"
 	 styles="default"
@@ -98,7 +98,7 @@
      selected="true"
      lid="PBCB"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Counties_Boundaries" 
 	 styles="default"
@@ -108,7 +108,7 @@
      <wmsLayer
      lid="PBCS"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="County_Seats"
 	 styles="default"
@@ -118,7 +118,7 @@
      <wmsLayer
      lid="PBECBI"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="EBCI_Lands"
 	 styles="default"
@@ -128,7 +128,7 @@
      <wmsLayer
      lid="PBFL"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Federal_Lands"
 	 styles="default"
@@ -138,7 +138,7 @@
      <wmsLayer
      lid="PBMB"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Municipal_Boundaries"
 	 styles="default"
@@ -148,7 +148,7 @@
 	 <wmsLayer
      lid="PBSOL"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="State_Owned_Lands"
 	 styles="default"
@@ -158,7 +158,7 @@
 	 <wmsLayer
      lid="PBWA"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Wilderness_Areas"
 	 styles="default"
@@ -168,7 +168,7 @@
      <wmsLayer
      lid="PBZ"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="ZIP_Codes"
 	 styles="default"
@@ -182,7 +182,7 @@
      <wmsLayer
      lid="NEBBS"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Black_Bear_Sanctuary"
 	 styles="default"
@@ -192,7 +192,7 @@
      <wmsLayer
      lid="NECH"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Critical_Habitat"
 	 styles="default"
@@ -202,7 +202,7 @@
 	 <wmsLayer
      lid="NEIBA"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Important_Bird_Areas"
 	 styles="default"
@@ -212,7 +212,7 @@
 	 <wmsLayer
      lid="NERA"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Roadless_Areas"
 	 styles="default"
@@ -222,7 +222,7 @@
 	 <wmsLayer
      lid="NESNHA"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Significant_Natural_Heritgae_Areas"
 	 styles="default"
@@ -232,7 +232,7 @@
 	 <wmsLayer
      lid="NESFF"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Spruce_Fir_Forest"
 	 styles="default"
@@ -242,7 +242,7 @@
 	 <wmsLayer
      lid="NEW"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Wetlands"
 	 styles="default"
@@ -254,7 +254,7 @@
 	 <wmsLayer
      lid="NGG"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Geology"
 	 styles="default"
@@ -264,7 +264,7 @@
 	 <wmsLayer
      lid="NGGF"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Geologic_Faults"
 	 styles="default"
@@ -274,7 +274,7 @@
 	 <wmsLayer
      lid="NGLL"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Landslide_Locations"
 	 styles="default"
@@ -286,7 +286,7 @@
 	 <wmsLayer
      lid="DEM"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="digital_elevation_model"
 	 styles="default"
@@ -296,7 +296,7 @@
 	<wmsLayer
      lid="HS"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Hillshade"
 	 styles="default"
@@ -308,7 +308,7 @@
 	 <wmsLayer
      lid="NEW"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Eastern_Continental_Divide"
 	 styles="default"
@@ -318,7 +318,7 @@
 	 <wmsLayer
      lid="NSLP"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="slope_pct"
 	 styles="default"
@@ -330,7 +330,7 @@
 	 <wmsLayer
      lid="NWW500"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Floodplains_500yr"
 	 styles="default"
@@ -340,7 +340,7 @@
 	 <wmsLayer
      lid="NQWORW"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="High_Quality_Waters_Outstanding_Resources_Waters"
 	 styles="default"
@@ -350,7 +350,7 @@
 	 <wmsLayer
      lid="NWML"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Major_Lakes"
 	 styles="default"
@@ -360,7 +360,7 @@
 	 <wmsLayer
      lid="NWMR"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Major_Rivers"
 	 styles="default"
@@ -370,7 +370,7 @@
 	 <wmsLayer
      lid="NWS"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Streams"
 	 styles="default"
@@ -380,7 +380,7 @@
 	 <wmsLayer
      lid="NWWB"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Waterbodies"
 	 styles="default"
@@ -390,7 +390,7 @@
 	 <wmsLayer
      lid="NWW8D"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Watersheds_8Digit"
 	 styles="default"
@@ -400,7 +400,7 @@
 	 <wmsLayer
      lid="NWW12D"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Watersheds_12Digit"
 	 styles="default"
@@ -410,7 +410,7 @@
 	 <wmsLayer
      lid="NWWSW"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Water_Supply_Watersheds"
 	 styles="default"
@@ -422,7 +422,7 @@
 	 <wmsLayer
      lid="NWCAAMT8110"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Avg_Annual_Max_Temp_81_10"
 	 styles="default"
@@ -432,7 +432,7 @@
 	 <wmsLayer
      lid="NWCAAMN8110"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Avg_Annual_Min_Temp_81_10"
 	 styles="default"
@@ -442,7 +442,7 @@
 	 <wmsLayer
      lid="NWCAAP8110"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Avg_Annual_Precip_81_10"
 	 styles="default"
@@ -452,7 +452,7 @@
 	 <wmsLayer
      lid="NWCMAAAP8110"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Mar_Aug_Avg_Annual_Precip_81_10"
 	 styles="default"
@@ -462,7 +462,7 @@
      <wmsLayer
      lid="NWCSFAAP8110"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Sept_Feb_Avg_Annual_Precip_81_10"
 	 styles="default"
@@ -476,7 +476,7 @@
 	 <wmsLayer
      lid="HCFAP"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Fishing_Access_Points"
 	 styles="default"
@@ -486,7 +486,7 @@
 	 <wmsLayer
      lid="HCGL"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Game_Lands"
 	 styles="default"
@@ -496,7 +496,7 @@
 	 <wmsLayer
      lid="HCPTR"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Public_Trout_Rivers"
 	 styles="default"
@@ -506,7 +506,7 @@
 	 <wmsLayer
      lid="HCPTL"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Public_Trout_Lakes"
 	 styles="default"
@@ -519,7 +519,7 @@
 	 <wmsLayer
      lid="HECU"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Colleges_and_Universities"
 	 styles="default"
@@ -529,7 +529,7 @@
 	 <wmsLayer
      lid="HENPS"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Non_Public_Schools"
 	 styles="default"
@@ -539,7 +539,7 @@
 	 <wmsLayer
      lid="HHPS"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Public_Schools"
 	 styles="default"
@@ -551,7 +551,7 @@
 	 <wmsLayer
      lid="HHH"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Hospitals"
 	 styles="default"
@@ -561,7 +561,7 @@
 	 <wmsLayer
      lid="HHMF"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Medical_Facilities"
 	 styles="default"
@@ -571,7 +571,7 @@
 	 <wmsLayer
      lid="HHPHC"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Public_Health_Centers"
 	 styles="default"
@@ -585,7 +585,7 @@
      <wmsLayer
 	 lid="BIATP"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Appalachian_Trail_Parking"
 	 styles="default"
@@ -595,7 +595,7 @@
      <wmsLayer
 	 lid="BIATS"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Appalachian_Trail_Shelters"
 	 styles="default"
@@ -605,7 +605,7 @@
 	 <wmsLayer
 	 lid="BID"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Dams"
 	 styles="default"
@@ -615,7 +615,7 @@
      <wmsLayer
 	 lid="BIEMS"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="EMS_Locations"
 	 styles="default"
@@ -625,7 +625,7 @@
      <wmsLayer
 	 lid="BIFS"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Fire_Stations"
 	 styles="default"
@@ -635,7 +635,7 @@
      <wmsLayer
 	 lid="BIHD"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Hydro_Dams"
 	 styles="default"
@@ -645,7 +645,7 @@
      <wmsLayer
 	 lid="BIWT"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Water_Tanks"
 	 styles="default"
@@ -657,7 +657,7 @@
 	 <wmsLayer
      lid="BLCTCP"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Conservation_Tax_Credit_Properties"
 	 styles="default"
@@ -667,7 +667,7 @@
      <wmsLayer
      lid="BLIS06"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Impervious_Surfaces_2006"
 	 styles="default"
@@ -677,7 +677,7 @@
 	 <wmsLayer
      lid="BLLU30"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Landuse_2030"
 	 styles="default"
@@ -687,7 +687,7 @@
 	 <wmsLayer
      lid="BLLU25"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Landuse_2025"
 	 styles="default"
@@ -697,7 +697,7 @@
 	 <wmsLayer
      lid="BLLU20"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Landuse_2020"
 	 styles="default"
@@ -707,7 +707,7 @@
 	 <wmsLayer
      lid="BLLU15"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Landuse_2015"
 	 styles="default"
@@ -717,7 +717,7 @@
 	 <wmsLayer
      lid="BLLU10"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Landuse_2010"
 	 styles="default"
@@ -727,7 +727,7 @@
 	 <wmsLayer
      lid="BLLU06"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Landuse_2006"
 	 styles="default"
@@ -737,7 +737,7 @@
 	 <wmsLayer
      lid="BLLU95"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Landiuse_1995"
 	 styles="default"
@@ -747,7 +747,7 @@
 	 <wmsLayer
      lid="BLLU85"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Landuse_1985"
 	 styles="default"
@@ -757,7 +757,7 @@
 	 <wmsLayer
      lid="BLLU76"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Landuse_1976"
 	 styles="default"
@@ -767,7 +767,7 @@
 	 <wmsLayer
 	 lid="BLLC06"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Land_Cover_2006"
 	 styles="default"
@@ -777,7 +777,7 @@
 	 <wmsLayer
 	 lid="BLLC06"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Land_Cover_2011"
 	 styles="default"
@@ -787,7 +787,7 @@
      <wmsLayer
 	 lid="BLMAL"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Managed_Areas"
 	 styles="default"
@@ -797,7 +797,7 @@
 	 <wmsLayer
      lid="BLTC"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Tree_Cover_2006"
 	 styles="default"
@@ -807,7 +807,7 @@
 	 <wmsLayer
      lid="BLUA"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Urban_Areas"
 	 styles="default"
@@ -819,7 +819,7 @@
 	 <wmsLayer
      lid="BLRHSHWS"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Hazardous_Waste_Sites"
 	 styles="default"
@@ -829,7 +829,7 @@
 	 <wmsLayer
      lid="BLRHSPL"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Public_Landfills"
 	 styles="default"
@@ -841,7 +841,7 @@
 	 <wmsLayer
 	 lid="BTAR"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Abandoned_Railroads"
 	 styles="default"
@@ -851,7 +851,7 @@
 	 <wmsLayer
 	 lid="BTA"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Airports"
 	 styles="default"
@@ -861,7 +861,7 @@
 	 <wmsLayer
 	 lid="BTAT"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="All_Trails"
 	 styles="default"
@@ -871,7 +871,7 @@
 	 <wmsLayer
 	 lid="BTAPPTRL"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Appalachian_Trail"
 	 styles="default"
@@ -881,7 +881,7 @@
 	 <wmsLayer
 	 lid="BTBR"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Bike_Routes"
 	 styles="default"
@@ -891,7 +891,7 @@
      <wmsLayer
 	 lid="BTBRP"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Blue_Ridge_Parkway"
 	 styles="default"
@@ -901,7 +901,7 @@
 	 <wmsLayer
 	 lid="BTGT"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Greenway_Trails"
 	 styles="default"
@@ -911,7 +911,7 @@
      <wmsLayer
 	 lid="BTGSMNP"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="GSMNP_Trails"
 	 styles="default"
@@ -921,7 +921,7 @@
      <wmsLayer
 	 lid="BTA"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Heliports"
 	 styles="default"
@@ -931,7 +931,7 @@
      <wmsLayer
 	 lid="BTI"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Interstates"
 	 styles="default"
@@ -941,7 +941,7 @@
     <wmsLayer
 	 lid="BTMTST"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Mountains_to_Sea_Trail"
 	 styles="default"
@@ -951,7 +951,7 @@
      <wmsLayer
 	 lid="BTNCR"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="NC_Routes"
 	 styles="default"
@@ -961,7 +961,7 @@
      <wmsLayer
 	 lid="BTAR"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Other_Local_Trails"
 	 styles="default"
@@ -971,7 +971,7 @@
      <wmsLayer
 	 lid="BTR"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Railroads"
 	 styles="default"
@@ -981,7 +981,7 @@
      <wmsLayer
 	 lid="BTSB"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Scenic_Byways"
 	 styles="default"
@@ -991,7 +991,7 @@
      <wmsLayer
 	 lid="BTUSHWY"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="US_Highways"
 	 styles="default"
@@ -1005,7 +1005,7 @@
 	 <wmsLayer
      lid="EBMR"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="Major_Retailers"
 	 styles="default"
@@ -1019,7 +1019,7 @@
 	 <wmsLayer
      lid="GSMSAS"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="ag_suit"
 	 styles="default"
@@ -1029,7 +1029,7 @@
 	 <wmsLayer
      lid="GSMSCS"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="cons_suit"
 	 styles="default"
@@ -1039,7 +1039,7 @@
 	 <wmsLayer
      lid="GSMSUS"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="urban_suit"
 	 styles="default"
@@ -1049,7 +1049,7 @@
 	 <wmsLayer
      lid="GSMSUAO"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="urb_ag_ovrl"
 	 styles="default"
@@ -1059,7 +1059,7 @@
 	 <wmsLayer
      lid="GSMSUAO"
 	 visible="false"
-	 url="http://mist.nemac.org/ArcGIS/services/OptIn/OptIn_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/OptIn/OptInSWNC_Viewer1/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="urb_cons_ovrl"
 	 styles="default"
